@@ -1,3 +1,15 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    int name;
+    cout << "Fahsai: Sawadee ka...Can you tell me your name?\n";
+    cin >> name;
+    cout << "Wow!!! " << name <<" is a really cool name.\n" ;
+    cout << "I think you are an Engineering student. What is your student ID?";
+    
+}
+
 //Dialog of the first example is given below.
 
 /*
