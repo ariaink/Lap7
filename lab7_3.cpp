@@ -1,9 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
 char before(char x){
-	//Write your function definition here
-}
+     if(x=='A') return 'Z';
+     if(x=='B') return 'A';
+     if(x=='P') return 'O';
+     if(x=='T') return 'S';
+     if(x=='Z') return 'Y';
+     if(x=='a') return '0';
+     if(x=='0') return '0';
+     if(x=='c') return '0';
+    return x-1;
+    }
+
 
 int main(){
 	//Test Case
